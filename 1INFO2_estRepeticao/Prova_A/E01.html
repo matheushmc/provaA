@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<script>
+    //Problema: Coleta de Dados
+    /*
+    Uma pessoa está fazendo levantamento dos dados de todas as pessoas que estão entrando na sala de cinema. Os dados coletados são gênero e idade. Será realizada uma coleta de dados (apenas uma amostra) com 20 pessoas.
+    Baseando-se nos dados coletados, apresente a quantidade de homens e a quantidade de mulheres, assim como a média de idade para os homens e a média de idade para as mulheres.
+    */
+
+    //Entrada
+    let idadeHomen = []
+    let idadeMulher = []
+    let somaHomens = 0
+    let somaMulheres = 0
+    let soma1 = somaHomens + somaHomens
+    let soma2 = somaMulheres + somaMulheres  
+    let somaidadeHomen = 0
+    let somaidadeMulher = 0
+
+    //Processamento
+    for (let contador = 0; contador <= 4; contador++) {
+        let perguntaGenero = prompt("informe seu gênero M: MASCULINO F: FEMENINO")
+        let idade = Number(prompt("informe sua idade"))
+        if(perguntaGenero === "M"){
+            let somaidadeHomen = idade.length + idade.
+            
+           idadeHomen.push(soma1) 
+        }else if(perguntaGenero === "F"){
+           
+           idadeMulher.push(soma2) 
+           let somaidadeMulher = idade.length + idade
+        }
+        
+    }
+   const mediahomen = somaidadeHomen / idadeHomen
+   const mediamulher = somaidadeMulher / idadeMulher
+    //Saída
+    document.write(`quantidade de homens: ${idadeHomen}<br/>quantidade de mulheres: ${idadeMulher}<br/>`)
+    document.write(`media da idade dos homens: ${mediahomen}<br/>media da idade das mulheres: ${mediamulher}`)
+</script>

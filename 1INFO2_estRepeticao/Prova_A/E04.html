@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+    //Problema: Lançar Notas
+    /*
+    Um professor está lançando a nota dos seus 10 alunos.
+    Contabilize e apresente, ao fim do programa, quantas notas ficaram abaixo de 6 e quantas notas ficaram acima de 6. Apresente também a média das notas de toda a turma.
+    */
+
+    //Entrada
+    let acimadeseis = []
+    let abaixodeseis = []
+    let media = 0
+
+    //Processamento
+    for (let contador = 1; contador <= 4; contador++) {
+        const perguntaNota = Number(prompt("informe a nota do aluno"))
+        if(perguntaNota >= 6){
+           
+          acimadeseis.push(perguntaNota)  
+        }else if(perguntaNota < 6){
+            
+          abaixodeseis.push(perguntaNota)  
+        }
+        
+        
+    }
+    
+
+         
+        
+    //Saída
+    document.write(`notas acima de seis: ${acimadeseis}<br/>notas abaixo de seis: ${abaixodeseis}`)
+</script>
